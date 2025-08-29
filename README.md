@@ -1,7 +1,7 @@
 # DEBIX Infinity Industrial Single Board Computer
 <br>
 <p align="center">
-<img  width=60% height=auto src="./DEBIX_Infinity_1.png" alt="DEBIX Infinity(1)">
+<img  width=60% height=auto src="./Media_Assets/DEBIX_Infinity_1.png" alt="DEBIX Infinity(1)">
 </p>
 
 ## Overview
@@ -27,7 +27,7 @@ This allows for easy connection and control of various industrial peripherals.
  fast and direct applications.
 
 <p align="center">
-<img  width=60% height=auto src="./DEBIX_Infinity_2.png" alt="DEBIX Infinity(2)">
+<img  width=60% height=auto src="./Media_Assets/DEBIX_Infinity_2.png" alt="DEBIX Infinity(2)">
 </p>
 
 ## Specification
@@ -59,7 +59,7 @@ This allows for easy connection and control of various industrial peripherals.
 
 ## I/O Interfaces:
 <p align="center">
-<img src="./Interface.png" alt="Interface(1)" width=90% height=auto>
+<img src="./Media_Assets/Interface.png" alt="Interface(1)" width=90% height=auto>
 </p>
 
 ## Compatible with DEBIX's Accessories
@@ -98,7 +98,7 @@ professional.
 
 ## Contact Us
 - **Headquarters**: DEBIX Technology Inc., 8345 Gold River Ct., Las Vegas, NV 89113, USA  
-- **Factory**: 5-6/F., East Zone, Shunheda A2 Building, Liqxiandong Industrial Park, XiLi, Nanshan Dist., Shenzhen, China  <img src="../../../Discord_QRcode.png" alt="Discord(QRcode)" width=15% height=auto align="right">
+- **Factory**: 5-6/F., East Zone, Shunheda A2 Building, Liqxiandong Industrial Park, XiLi, Nanshan Dist., Shenzhen, China  <img src="./Media_Assets/Discord_QRcode.png" alt="Discord(QRcode)" width=15% height=auto align="right">
 - **Email**: info@debix.io  
 - **Website**: [www.debix.io](https://www.debix.io)  
 - **Community**: [Discord](https://discord.com/invite/adaHHaDkH2)
