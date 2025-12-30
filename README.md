@@ -39,7 +39,7 @@ This allows for easy connection and control of various industrial peripherals.
 | OS              | Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12, Win10 IoT Enterprise (also supports OpenWRT and FreeRTOS)<br>*Note: 4GB/8GB LPDDR4 supports Windows 10 IoT, recommend 8GB version.*|
 |**I/O Interfaces**|                                                                      
 | Gigabit Ethernet| 2 x Gigabit Ethernet, one supports TSN and POE power supply (need POE power device module) |
-| WiFi & BT       | NXP 88W8987 SoC: 2.4GHz & 5GHz Wi-Fi + BT 5.2                           |
+| WiFi & BT       | NXP 88W8987 SoC: 2.4GHz & 5GHz Wi-Fi + BT 5.2, external Wi-Fi SMA antenna connector (IPEX-1)   |
 | USB             | 2 x USB 3.0 Host Type-A (DWN_USB1 can be configured as OTG via software)|
 | Audio           | 1 x Headphone and Mic combo port                                        |
 | HDMI            | 1 x HDMI OUT                                                            |
