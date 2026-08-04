@@ -1,16 +1,19 @@
 # DEBIX Infinity Industrial Single Board Computer
+
 <br>
 <p align="center">
 <img  width=60% height=auto src="./Media_Assets/DEBIX_Infinity_1.png" alt="DEBIX Infinity(1)">
 </p>
 
 ## Overview
+
 DEBIX Infinity is an embedded board based on NXP i.MX 8M Plus Quad Lite, which provides a range of scalable interface options aimed at smart robots, Industry 4.0, edge 
 computing, gateways, IoT, and security applications. 
 
 Engineered to deliver more energy-efficient and cost-effective solutions for intelligent edge computing, DEBIX Infinity provides multiple extensible interfaces for IoT edge, contactless HMI, smart home, building control and industrial applications.
 
 ## Main Features
+
 - **Performance:** Powerful quad-core Arm® Cortex®-A53 CPU at 1.6GHz indicates
 sufficient processing power for demanding industrial applications.
 - **Real-time control:** Cortex-M7 core and robust control network interfaces like dual
@@ -31,13 +34,19 @@ This allows for easy connection and control of various industrial peripherals.
 </p>
 
 ## Specification
+
 | System          |                                                                         |
 |-----------------|-------------------------------------------------------------------------|
 | CPU             | NXP i.MX 8M Plus Quad Lite, MIMX8ML4CVNKZAB, 4 x Cortex-A53 1.6GHz      |
+| MCU             | 1 x Cortex-M7 real-time core (up to 800MHz)                             |
+| GPU             | GC7000UL (3D), GC520L (2D), OpenGL, OpenCL, Vulkan                      |
+| NPU             | 2.3 TOPS                                                                |
+| Security        | Arm® TrustZone®, DRM Ciphers, Secure Clock, eFuse Clock, eFuse Key Storage, Random Number, 32KB Secure RAM |
+| Watchdog        | Hardware Watchdog                                                       |
 | Memory          | 2GB LPDDR4 (4GB optional, while 8GB is optional when opertaing temp. is -20℃ to 70℃) |
 | Storage         | Micro SD card (Onboard 8GB/16GB/32GB/64GB/128GB/256GB eMMC optional)    |
 | OS              | Android 11, Yocto-L6.6.36, Ubuntu 22.04, Debian 12, Win10 IoT Enterprise (also supports OpenWRT and FreeRTOS)<br>*Note: 4GB/8GB LPDDR4 supports Windows 10 IoT, recommend 8GB version.*|
-|**I/O Interfaces**|                                                                      
+|**I/O Interfaces**|              |
 | Gigabit Ethernet| 2 x Gigabit Ethernet, one supports TSN and POE power supply (need POE power device module) |
 | WiFi & BT       | NXP 88W8987 SoC: 2.4GHz & 5GHz Wi-Fi + BT 5.2, external Wi-Fi SMA antenna connector (IPEX-1)   |
 | USB             | 2 x USB 3.0 Host Type-A (DWN_USB1 can be configured as OTG via software)|
@@ -58,45 +67,55 @@ This allows for easy connection and control of various industrial peripherals.
 | Net Weight      | 46g (±0.5g)                                                             |
 
 ## I/O Interfaces:
+
 <p align="center">
 <img src="./Media_Assets/Interface.png" alt="Interface(1)" width=90% height=auto>
 </p>
 
 ## Compatible with DEBIX's Accessories
+
 | Product                     | Model               |
 |-----------------------------|---------------------|
 | DEBIX Fanless Aluminum Enclosure | EMC-7090B Infinity|
 | I/O Board                   | EMB-AS-E01          |
-| 4G Board                    | EMB-AS-05          |
-| LoRa Board                  | EMB-AS-03          |
-| SBC POE Board               | EMB-AS-06          |
+| 4G Board                    | EMB-AS-05           |
+| LoRa Board                  | EMB-AS-03           |
+| SBC POE Board               | EMB-AS-06           |
+| MIPI-to-HDMI Board          | EMB-AS-16           |
 | DEBIX Camera Modules        | Camera 200A; Camera 500A; Camera 1300A |
-| DEBIX Display Screens       | DEBIX TD050A; DEBIX TD070A; DEBIX TD101A; DEBIX TD050H; DEBIX TD070H; DEBIX TD101H |
+| DEBIX Display Screen        | TD050A (LVDS); TD070A (LVDS); TD101A (LVDS); TD050H (HDMI); TD070H (HDMI); TD101H (HDMI); TD080B (MIPI DSI) |
 
 ## Safety Instructions and Warnings:
+
 **General:**
+
 - Avoid exposure to water, moisture and conductive surfaces while operating.
 - Handle with care to avoid mechanical or electrical damage to the circuit board and connectors.
 - Only handle the board by the edges when powered on to minimize the risk of electrostatic discharge damage.
 
 **Power:**
+
 - Use only a 5V/3A DC minimum external power supply that complies with relevant regulations and standards for your country.
 
 **Environment:**
+
 - Operate in a well-ventilated environment, even if using a case.
 - Place on a stable, flat, non-conductive surface and avoid contact with conductive items.
 
 **Connections:**
+
 - Only connect compatible devices to the GPIO ports to avoid damage and warranty
 voiding.
 - Use peripherals that comply with relevant standards for the country of use and ensure proper insulation and operation.
 
 **Additional notes:**
+
 - This summary is not exhaustive, please refer to the full User Manual for details.
 - If you are unsure about any aspect of safety or operation, consult a qualified
 professional.
 
 ## Contact Us
+
 - **Headquarters**: DEBIX Technology Inc., 8345 Gold River Ct., Las Vegas, NV 89113, USA  
 - **Factory**: 5-6/F., East Zone, Shunheda A2 Building, Liqxiandong Industrial Park, XiLi, Nanshan Dist., Shenzhen, China  <img src="./Media_Assets/Discord_QRcode.png" alt="Discord(QRcode)" width=15% height=auto align="right">
 - **Email**: info@debix.io  
